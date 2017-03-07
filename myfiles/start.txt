@@ -1,0 +1,35 @@
+<p>
+Since the invention of MacWrite, the first WYSIWYG word processor, in which the typist codes the formatting visually rather than by inserting textual markup, word processors have tended to save to binary files. Opening such files with a text editor reveals the text embellished with various binary characters, either around the formatted areas (e.g. in WordPerfect) or separately, at the beginning or end of the file (e.g. in Microsoft Word).
+
+Formatted text documents in binary files have, however, the disadvantages of formatting scope and secrecy. Whereas the extent of formatting is accurately marked in markup languages, WYSIWYG formatting is based on memory, that is, keeping for example your pressing of the boldface button until cancelled. This can lead to formatting mistakes and maintenance troubles. As for secrecy, formatted text document file formats tend to be proprietary and undocumented, leading to difficulty in coding compatibility by third parties, and also to unnecessary upgrades because of version changes.
+
+WordStar was a popular word processor that did not use binary files with hidden characters.
+
+OpenOffice.org Writer saves files in an XML format. However, the resultant file is a binary since it is compressed (a tarball equivalent).
+
+PDF is another formatted text file format that is usually binary (using compression for the text, and storing graphics and fonts in binary). It is generally an end-user format, written from an application such as Microsoft Word or OpenOffice.org Writer, and not editable by the user once done.Since the invention of MacWrite, the first WYSIWYG word processor, in which the typist codes the formatting visually rather than by inserting textual markup, word processors have tended to save to binary files. Opening such files with a text editor reveals the text embellished with various binary characters, either around the formatted areas (e.g. in WordPerfect) or separately, at the beginning or end of the file (e.g. in Microsoft Word).
+
+Formatted text documents in binary files have, however, the disadvantages of formatting scope and secrecy. Whereas the extent of formatting is accurately marked in markup languages, WYSIWYG formatting is based on memory, that is, keeping for example your pressing of the boldface button until cancelled. This can lead to formatting mistakes and maintenance troubles. As for secrecy, formatted text document file formats tend to be proprietary and undocumented, leading to difficulty in coding compatibility by third parties, and also to unnecessary upgrades because of version changes.
+
+WordStar was a popular word processor that did not use binary files with hidden characters.
+
+OpenOffice.org Writer saves files in an XML format. However, the resultant file is a binary since it is compressed (a tarball equivalent).
+
+PDF is another formatted text file format that is usually binary (using compression for the text, and storing graphics and fonts in binary). It is generally an end-user format, written from an application such as Microsoft Word or OpenOffice.org Writer, and not editable by the user once done.Since the invention of MacWrite, the first WYSIWYG word processor, in which the typist codes the formatting visually rather than by inserting textual markup, word processors have tended to save to binary files. Opening such files with a text editor reveals the text embellished with various binary characters, either around the formatted areas (e.g. in WordPerfect) or separately, at the beginning or end of the file (e.g. in Microsoft Word).
+
+Formatted text documents in binary files have, however, the disadvantages of formatting scope and secrecy. Whereas the extent of formatting is accurately marked in markup languages, WYSIWYG formatting is based on memory, that is, keeping for example your pressing of the boldface button until cancelled. This can lead to formatting mistakes and maintenance troubles. As for secrecy, formatted text document file formats tend to be proprietary and undocumented, leading to difficulty in coding compatibility by third parties, and also to unnecessary upgrades because of version changes.
+
+WordStar was a popular word processor that did not use binary files with hidden characters.
+
+OpenOffice.org Writer saves files in an XML format. However, the resultant file is a binary since it is compressed (a tarball equivalent).
+
+PDF is another formatted text file format that is usually binary (using compression for the text, and storing graphics and fonts in binary). It is generally an end-user format, written from an application such as Microsoft Word or OpenOffice.org Writer, and not editable by the user once done.Since the invention of MacWrite, the first WYSIWYG word processor, in which the typist codes the formatting visually rather than by inserting textual markup, word processors have tended to save to binary files. Opening such files with a text editor reveals the text embellished with various binary characters, either around the formatted areas (e.g. in WordPerfect) or separately, at the beginning or end of the file (e.g. in Microsoft Word).
+
+Formatted text documents in binary files have, however, the disadvantages of formatting scope and secrecy. Whereas the extent of formatting is accurately marked in markup languages, WYSIWYG formatting is based on memory, that is, keeping for example your pressing of the boldface button until cancelled. This can lead to formatting mistakes and maintenance troubles. As for secrecy, formatted text document file formats tend to be proprietary and undocumented, leading to difficulty in coding compatibility by third parties, and also to unnecessary upgrades because of version changes.
+
+WordStar was a popular word processor that did not use binary files with hidden characters.
+
+OpenOffice.org Writer saves files in an XML format. However, the resultant file is a binary since it is compressed (a tarball equivalent).
+
+PDF is another formatted text file format that is usually binary (using compression for the text, and storing graphics and fonts in binary). It is generally an end-user format, written from an application such as Microsoft Word or OpenOffice.org Writer, and not editable by the user once done.
+</p>
