@@ -44,7 +44,7 @@ function insertresult(result){
             insertdata = insertdata+"tecnologies.I enjoy building things. Feeling that people are going to use my app in someway <br>";
             insertdata = insertdata+"facinates me. Apart from coding I like play games and also have affection towards building games.<br>";
             insertdata = insertdata+"I love to develope and thing language does not matter at all.<br>";
-            insertdata = insertdata+"<p class='importantdata'>My ultimate career goal is to always be doing things that interest me and aiming to make a difference to the world...</p>";
+            insertdata = insertdata+"<p class='importantdata'>My ultimate career goal is to always be doing things that interest me and aiming to make a difference to the world...</p><br>";
             var topdata = document.getElementById("start").innerHTML;
             document.getElementById("start").innerHTML = topdata+insertdata;
             break;
@@ -101,4 +101,5 @@ function insertresult(result){
             document.getElementById("start").innerHTML = topdata+insertdata;
         }
     }
+
 }
