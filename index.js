@@ -32,7 +32,7 @@ function insertresult(result){
             insertdata = insertdata+"2. experience&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--tells about my experience<br>";
             insertdata = insertdata+"3. education&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--my education<br>";
             insertdata = insertdata+"4. skills&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--my skills<br>";
-            insertdata = insertdata+"5. work&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--my interest<br>";
+            insertdata = insertdata+"5. works&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--my interest<br>";
             insertdata = insertdata+"6. contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--my contact<br>";
             insertdata = insertdata+"7. reset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--to reset this page<br>";
             var topdata = document.getElementById("start").innerHTML;
@@ -73,7 +73,7 @@ function insertresult(result){
             document.getElementById("start").innerHTML = topdata+insertdata;    
             break;
         }
-        case "work": {
+        case "works": {
             var insertdata = "github handle :- <a class='siteinfo' href='https://github.com/kidminks'>https://github.com/kidminks</a><br>";
             insertdata = insertdata+"site1 :- <a class='siteinfo' href='http://one-liners.000webhostapp.com'>http://one-liners.000webhostapp.com</a><br>";
             insertdata = insertdata+"Build in php this allows user to see quotes and insert new quotes<br>";
