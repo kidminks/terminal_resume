@@ -68,7 +68,7 @@ function insertresult(result){
             break;
         }
         case "skills": {
-            var insertdata = "Ruby Python C# Java C++ Javascript HTML<br>"; 
+            var insertdata = "Ruby -----#<br>Python -----#<br>C# -----#<br>Java ---#<br>C++ -------#<br>Javascript -----#<br>HTML -----#<br>"; 
             var topdata = document.getElementById("start").innerHTML;
             document.getElementById("start").innerHTML = topdata+insertdata;    
             break;
