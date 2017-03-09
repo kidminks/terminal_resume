@@ -74,7 +74,7 @@ function insertresult(result){
             break;
         }
         case "work": {
-            var insertdata = "github handle :- <a class='siteinfo'>https://github.com/kidminks</a><br>";
+            var insertdata = "github handle :- <a class='siteinfo' href='https://github.com/kidminks'>https://github.com/kidminks</a><br>";
             insertdata = insertdata+"site1 :- <a class='siteinfo' href='http://one-liners.000webhostapp.com'>http://one-liners.000webhostapp.com</a><br>";
             insertdata = insertdata+"Build in php this allows user to see quotes and insert new quotes<br>";
             insertdata = insertdata+"site2 :- <a class='siteinfo' href='http://prochatting.000webhostapp.com'>http://prochatting.000webhostapp.com</a><br>";
