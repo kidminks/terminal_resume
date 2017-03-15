@@ -10,24 +10,29 @@ function editable(){
 function giveninput(event){
     if(event.which == 13 || event.keyCode == 13){
         var topdata = document.getElementById("start").innerHTML+document.getElementById("code").innerHTML;
-        var getresultfor = document.getElementById("editable").innerHTML;
+        var getresultfor = document.getElementById("editable").innerText;
+        getresultfor = getresultfor.slice(0,-2);
+        console.log(getresultfor);
+        document.getElementById("editable").innerHTML = '';
         document.getElementById("start").innerHTML = topdata+getresultfor+"<br>";
         insertresult(getresultfor);
-        destroyandgenerate();
+        editable();
     }
 }
-function destroyandgenerate(){
-    var element = document.getElementById("editable");
-    element.parentNode.removeChild(element);
-    var p = document.createElement('p');
-    p.setAttribute("id", "editable");
-    p.setAttribute("contenteditable", "true");
-    p.setAttribute("onkeypress", "giveninput(event)");
-    document.getElementById("data").appendChild(p);
-}
+
+
+
+
+
+
+
+
+
+                                                /* BackChodi */
+
 function insertresult(result){
     switch(result){
-        case "help": {
+        case 'help': {
             var insertdata = "1. about&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--tells you about me<br>";
             insertdata = insertdata+"2. experience&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--tells about my experience<br>";
             insertdata = insertdata+"3. education&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--my education<br>";
