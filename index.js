@@ -56,7 +56,11 @@ function insertresult(result){
         }
         case "experience": {
             var insertdata = "I am new to development world so am having very less experience. Have participated<br>";
-            insertdata = insertdata+"in few hackathons like <p class='importantdata'>HACK DTU</p, and <p class='importantdata'>Rajasthan HACK</p>,<p class='importantdata'>Jugaduthon IIIT</p> and <p class='importantdata'>Tech Marathon</p> <br>";
+            insertdata = insertdata+"in few hackathons like :-";
+            insertdata = insertdata+"<p class='importantdata'>1. HACK DTU</p><br>";
+            insertdata = insertdata+"<p class='importantdata'>2. Rajasthan HACK</p><br>";
+            insertdata = insertdata+"<p class='importantdata'>3. Jugaduthon IIIT</p><br>";
+            insertdata = insertdata+"<p class='importantdata'>4. Tech Marathon</p><br>";
             insertdata = insertdata+"Although I would like to say that I tring my best to gain as much knowledge as I can<br>";
             var topdata = document.getElementById("start").innerHTML;
             document.getElementById("start").innerHTML = topdata+insertdata;
@@ -80,12 +84,12 @@ function insertresult(result){
         }
         case "works": {
             var insertdata = "github handle :- <a class='siteinfo' href='https://github.com/kidminks'>https://github.com/kidminks</a><br>";
-            insertdata = insertdata+"site1 :- <a class='siteinfo' href='http://one-liners.000webhostapp.com'>http://one-liners.000webhostapp.com</a><br>";
-            insertdata = insertdata+"Build in php this allows user to see quotes and insert new quotes<br>";
-            insertdata = insertdata+"site2 :- <a class='siteinfo' href='http://prochatting.000webhostapp.com'>http://prochatting.000webhostapp.com</a><br>";
-            insertdata = insertdata+"Chat room build in php<br>";
-            insertdata = insertdata+"site2 :- <a class='siteinfo' href='https://kidminks.github.io/pingpong'>https://kidminks.github.io/pingpong</a><br>";
+            insertdata = insertdata+"site1 :- <a class='siteinfo' href='https://kidminks.github.io/pingpong'>https://kidminks.github.io/pingpong</a><br>";
             insertdata = insertdata+"JS ping-pong game<br>";
+            insertdata = insertdata+"site2 :- <a class='siteinfo' href='http://one-liners.000webhostapp.com'>http://one-liners.000webhostapp.com</a><br>";
+            insertdata = insertdata+"Build in php this allows user to see quotes and insert new quotes<br>";
+            insertdata = insertdata+"site3 :- <a class='siteinfo' href='http://prochatting.000webhostapp.com'>http://prochatting.000webhostapp.com</a><br>";
+            insertdata = insertdata+"Chat room build in php<br>";
             var topdata = document.getElementById("start").innerHTML;
             document.getElementById("start").innerHTML = topdata+insertdata;
             break;
