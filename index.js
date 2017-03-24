@@ -56,8 +56,8 @@ function insertresult(result){
         }
         case "experience": {
             var insertdata = "I am new to development world so am having very less experience. Have participated<br>";
-            insertdata = insertdata+"in few hackathons like <p class='importantdata'>HACK DTU</p> and <p class='importantdata'>Rajasthan HACK</p><br>";
-            insertdata = insertdata+"<p class='importantdata'>Jugaduthon IIIT</p> Although I would like to say that I tring my best to gain as much knowledge as I can<br>";
+            insertdata = insertdata+"in few hackathons like <p class='importantdata'>HACK DTU</p, and <p class='importantdata'>Rajasthan HACK</p>,<p class='importantdata'>Jugaduthon IIIT</p> and <p class='importantdata'>Tech Marathon</p> <br>";
+            insertdata = insertdata+"Although I would like to say that I tring my best to gain as much knowledge as I can<br>";
             var topdata = document.getElementById("start").innerHTML;
             document.getElementById("start").innerHTML = topdata+insertdata;
             break;
