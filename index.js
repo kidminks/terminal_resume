@@ -56,7 +56,7 @@ function insertresult(result){
         }
         case "experience": {
             var insertdata = "I am new to development world so am having very less experience. Have participated<br>";
-            insertdata = insertdata+"in few hackathons like :-";
+            insertdata = insertdata+"in few hackathons like :-<br>";
             insertdata = insertdata+"<p class='importantdata'>1. HACK DTU</p><br>";
             insertdata = insertdata+"<p class='importantdata'>2. Rajasthan HACK</p><br>";
             insertdata = insertdata+"<p class='importantdata'>3. Jugaduthon IIIT</p><br>";
